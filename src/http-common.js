@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: 'https://igtibackend.herokuapp.com:8081/',
+  baseURL: 'https://igtibackend.herokuapp.com/grade',
   headers: {
     'Content-type': 'application/json',
   },
